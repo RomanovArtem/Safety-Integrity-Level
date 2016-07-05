@@ -1,0 +1,34 @@
+
+#header{
+    border: 1px solid black;  
+    height: 208px;
+    float: right;
+    width: 100%;
+    margin-left: 364px;
+    position: absolute;
+}
+#block-body{
+    border: 1px solid green;  
+    height: 100%;
+    width: 100%;
+}
+#side-bar{
+    height: 100vh;
+    width: 364px;
+    border: 1px solid black;  
+    float: left;
+    position: fixed;
+}
+#content{
+    border: 1px solid red; 
+    height: 600px;
+    margin-top: 208px;
+    margin-left: 364px;
+}
+#footer{
+    border: 1px solid blue;  
+    width: 100%;
+    height: 208px;
+    margin-left: 364px;
+    bottom:0;
+}
