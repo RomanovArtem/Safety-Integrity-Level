@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$('#side-bar > ul > li > a').mouseover(function(){
+	$('#side-bar > ul > li > a').click(function(){
     
        // alert("!!!!!!!!!!");
          if($(this).attr('class') != 'active')
