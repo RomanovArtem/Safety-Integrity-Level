@@ -61,10 +61,10 @@
     font-size: 16px;
     color: #e3e3e3;
 }
-#nav-menu li:hover ul{
+/*#nav-menu li:hover ul{
     display: block;
 
-}
+}*/
 #submenu{
     border-left: 3px solid #e3e3e3;
     padding-left: 24px;
