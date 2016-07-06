@@ -10,6 +10,7 @@
     width: 100%;
     margin-left: 364px;
     position: absolute;
+    background-color: #739CA2;
 }
 #block-body{
     border: 1px solid green;  
@@ -43,19 +44,19 @@
     margin-top: 84px;
     margin-left: 71px;
 }
-#nav-menu{
+#left-nav-menu{
     margin-left: 71px;
     margin-right: 40px;
     margin-top: 54px;
     position: absolute;
 }
-#nav-menu li{
+#left-nav-menu li{
     margin-top: 14px;   
 }
-#nav-menu li ul{
+#left-nav-menu li ul{
     display: none;
 }
-#nav-menu li a{
+#left-nav-menu li a{
     text-decoration: none;
     font-family: 'Segoe UI';
     font-size: 16px;
@@ -92,5 +93,26 @@
     bottom: 0px;
     padding-left: 10px;
     padding-bottom: 2px;
-
 }
+#top-nav-menu{
+   margin-left: 22px;
+   margin-top: 113px;
+}
+#top-nav-menu li{
+   float: left;
+   margin-left: 80px;
+}
+#top-nav-menu li{
+   float: left;
+   margin-left: 80px;
+}
+#top-nav-menu a{
+   text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    color: #e3e3e3;
+    cursor: pointer;
+}
+#top-nav-menu a:hover{
+   border-bottom: 1px solid #e3e3e3;
+ }
