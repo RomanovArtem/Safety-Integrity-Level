@@ -1,4 +1,8 @@
 
+@font-face{
+    font-family: 'Segoe UI';
+    src: local (SegoeUI.ttf), url(SegoeUI.ttf);
+}
 #header{
     border: 1px solid black;  
     height: 208px;
@@ -18,6 +22,7 @@
     border: 1px solid black;  
     float: left;
     position: fixed;
+    background-color: #292929;
 }
 #content{
     border: 1px solid red; 
@@ -31,4 +36,36 @@
     height: 208px;
     margin-left: 364px;
     bottom:0;
+}
+#logo{
+    width: 175px;
+    height: 110px;
+    margin-top: 84px;
+    margin-left: 71px;
+}
+#nav-menu{
+    margin-left: 71px;
+    margin-right: 40px;
+    margin-top: 54px;
+    position: absolute;
+}
+#nav-menu li{
+    margin-top: 14px;   
+}
+#nav-menu li ul{
+    display: none;
+}
+#nav-menu li a{
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    color: #e3e3e3;
+}
+#nav-menu li:hover ul{
+    display: block;
+
+}
+#submenu{
+    border-left: 3px solid #e3e3e3;
+    padding-left: 24px;
 }
