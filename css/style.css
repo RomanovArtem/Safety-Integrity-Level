@@ -1,16 +1,16 @@
 
 @font-face{
     font-family: 'Segoe UI';
-    src: local (SegoeUI.ttf), url(SegoeUI.ttf);
+    src: url(SegoeUI.ttf);
 }
 #header{
     border: 1px solid black;  
     height: 208px;
     float: right;
-    width: 100%;
-    margin-left: 364px;
     position: absolute;
     background-color: #739CA2;
+    right: 0;
+    left: 364px;
 }
 #block-body{
     border: 1px solid green;  
@@ -27,16 +27,18 @@
 }
 #content{
     border: 1px solid red; 
-    height: 600px;
+    height: auto;
     margin-top: 208px;
     margin-left: 364px;
 }
 #footer{
+    clear:both;
     border: 1px solid blue;  
-    width: 100%;
     height: 208px;
-    margin-left: 364px;
-    bottom:0;
+    left: 364px;
+    float: right;
+    position: absolute;
+    right: 0;
 }
 #logo{
     width: 175px;
@@ -107,7 +109,7 @@
    margin-left: 80px;
 }
 #top-nav-menu a{
-   text-decoration: none;
+    text-decoration: none;
     font-family: 'Segoe UI';
     font-size: 16px;
     color: #e3e3e3;
@@ -115,4 +117,55 @@
 }
 #top-nav-menu a:hover{
    border-bottom: 1px solid #e3e3e3;
- }
+}
+#partners{
+    height: 416px;
+    width: 425px;
+    background-color: #3E5042;
+    margin-left: 102px;
+    position: absolute;
+}
+#partners p {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Segoe UI';
+    font-size: 45px;
+    color: #e3e3e3;
+}
+#about-us{
+    height: 416px;
+    width: 425px;
+    background-color: #56685C;
+    margin-left: 533px;
+}
+#section{
+    height: 219px;
+    width: 856px;
+    margin-left: 102px;
+    margin-top: 6px;
+    background-color: #56685C;
+}
+#logo-microsoft{
+    height: 40px;
+    width: 188px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background: url(../images/logo-microsoft.png);
+    outline: none;
+    position: absolute;
+}
+#logo-microsoft:hover{
+    background: url(../images/logo-microsoft-hover.png);
+}
+#logo-intel{
+    height: 70px;
+    width: 101px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 50px;
+    background: url(../images/logo-intel.png) no-repeat;
+    outline: none;
+}
+#logo-intel:hover{
+    background: url(../images/logo-intel-hover.png);
+}
