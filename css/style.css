@@ -1,7 +1,7 @@
 
 @font-face{
     font-family: 'Segoe UI';
-    src: url(SegoeUI.ttf);
+    src: url(../SegoeUI.ttf);
 }
 #header{
     border: 1px solid black;  
@@ -64,6 +64,10 @@
     font-size: 16px;
     color: #e3e3e3;
     cursor: pointer;
+    font-weight: normal;
+}
+#left-nav-menu li a:hover{
+    border-bottom: 1px solid #e3e3e3;
 }
 #submenu{
     border-left: 3px solid #e3e3e3;
@@ -114,18 +118,23 @@
     font-size: 16px;
     color: #e3e3e3;
     cursor: pointer;
+    font-weight: normal;
 }
 #top-nav-menu a:hover{
    border-bottom: 1px solid #e3e3e3;
 }
+#top-nav-menu a:target{
+   border-bottom: 1px solid #e3e3e3;
+}
 #partners{
     height: 416px;
-    width: 425px;
+    width: 452px;
     background-color: #3E5042;
     margin-left: 102px;
     position: absolute;
+    margin-right: 6px;
 }
-#partners p {
+#partners h1 {
     padding-left: 30px;
     padding-top: 30px;
     font-family: 'Segoe UI';
@@ -133,14 +142,15 @@
     color: #e3e3e3;
 }
 #about-us{
-    height: 416px;
-    width: 425px;
+    height: auto;
+    width: 452px;
     background-color: #56685C;
-    margin-left: 533px;
+    margin-left: 560px;
+    position: relative;
 }
 #section{
     height: 219px;
-    width: 856px;
+    width: 910px;
     margin-left: 102px;
     margin-top: 6px;
     background-color: #56685C;
@@ -148,7 +158,7 @@
 #logo-microsoft{
     height: 40px;
     width: 188px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 50px;
     background: url(../images/logo-microsoft.png);
     outline: none;
@@ -160,7 +170,7 @@
 #logo-intel{
     height: 70px;
     width: 101px;
-    margin-top: 20px;
+    margin-top: 30px;
     float: right;
     margin-right: 50px;
     background: url(../images/logo-intel.png) no-repeat;
@@ -168,4 +178,78 @@
 }
 #logo-intel:hover{
     background: url(../images/logo-intel-hover.png);
+}
+#about-us h1 {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Segoe UI';
+    font-size: 45px;
+    color: #e3e3e3;
+}
+#about-us-img{
+    height: 134px;
+    width: 406px;
+    margin-top: 40px;
+    margin-left: 23px;
+    margin-right: 23px;
+    background: url(../images/about-us.png) no-repeat;
+    outline: none;
+}
+#about-us h2 {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: bold;
+    color: #e3e3e3;
+    margin-top: 15px;
+    margin-left: 23px;
+}
+#information-loren-ipsum {
+    clear: both;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 15px;
+    color: #e3e3e3;
+    margin-top: 12px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+#about-us h3 {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: bold;
+    color: #e3e3e3;
+    margin-top: 19px;
+    margin-left: 117px;
+    padding-right: 20px;
+}
+#about-us h4 {
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    font-style: italic;
+    color: #e3e3e3;
+    margin-right: 23px;
+    margin-left: 20px;
+    margin-top: -13px;
+    position: absolute;
+    right: 0;
+}
+#about-us img {
+    width: 80px;
+    height: 89px;
+    margin-left: 23px;
+    margin-top: 19px;
+    float: left;
+    padding-right: 13px;
+
+}
+#information-linus-torvalds {
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 15px;
+    color: #e3e3e3;
+    margin-top: 12px;
+    margin-right: 23px;
+    padding-bottom: 23px;
 }
