@@ -193,7 +193,6 @@
     margin-left: 23px;
     margin-right: 23px;
     background: url(../images/about-us.png) no-repeat;
-    outline: none;
 }
 #about-us h2 {
     font-family: 'Segoe UI';
@@ -253,3 +252,85 @@
     margin-right: 23px;
     padding-bottom: 23px;
 }
+#section h1 {
+    padding-left: 28px;
+    padding-top: 30px;
+    font-family: 'Segoe UI';
+    font-size: 45px;
+    color: #e3e3e3;
+    position: absolute;
+}
+#prev-img {
+    clear: both;
+    height: 31px;
+    width: 21px;
+    margin-left: 18px;
+    bottom: 37px;
+    position: relative;
+    float: left;
+    background: url(../images/prev.png) no-repeat;
+}
+#prev-img:hover {
+    background: url(../images/prev-hover.png) no-repeat;
+    cursor: pointer;
+}
+#slider{
+    padding-top: 105px;
+    display: block;
+    margin-left: 40px;
+}
+#slider li{
+    height: 50px;
+    width: 50px;
+}
+    #camera{
+        background: url(../images/camera.png) no-repeat;
+        margin-right: 44px;
+        margin-left: 44px;        
+    }
+    #rocket{
+        background: url(../images/rocket.png) no-repeat;
+        margin-right: 44px;
+        margin-left: 44px;
+            
+    }
+    #security{
+        background: url(../images/security.png) no-repeat;
+        margin-right: 44px;
+        margin-left: 44px;            
+    }
+    #archive{
+        background: url(../images/archive.png) no-repeat;
+        margin-right: 44px;
+        margin-left: 44px;
+            
+    }
+    #energy{
+        background: url(../images/energy.png) no-repeat;
+        margin-right: 44px;
+        margin-left: 44px;            
+    }
+    #protection{
+        background: url(../images/protection.png) no-repeat;
+        margin-right: 44px;
+        margin-left: 44px;            
+    }
+#camera:hover,#rocket:hover,#security:hover,#archive:hover,#energy:hover,#protection:hover {
+    opacity: 0.3;
+}
+#next-img {
+    background: url(../images/next.png) no-repeat;
+    height: 31px;
+    width: 21px;
+    bottom: 37px;
+    margin-right: 18px;
+    position: relative;
+    float: right;
+}
+#next-img:hover {
+    background: url(../images/next-hover.png) no-repeat;
+    cursor: pointer;
+}
+
+
+
