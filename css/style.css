@@ -34,11 +34,12 @@
 #footer{
     clear:both;
     border: 1px solid blue;  
-    height: 208px;
+    height: auto;
     left: 364px;
     float: right;
     position: absolute;
     right: 0;
+    background-color: #86A296;
 }
 #logo{
     width: 175px;
@@ -265,7 +266,7 @@
     height: 31px;
     width: 21px;
     margin-left: 18px;
-    bottom: 37px;
+    bottom: 72px;
     position: relative;
     float: left;
     background: url(../images/prev.png) no-repeat;
@@ -280,49 +281,78 @@
     margin-left: 40px;
 }
 #slider li{
-    height: 50px;
+    height: 80px;
     width: 50px;
 }
+#slider a{
+    position: absolute;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-size: 12px;
+    color: #e3e3e3;
+    bottom: -75px;
+    text-decoration: none;
+}
+#slider p
+{
+    margin-top: 13px;
+}
     #camera{
-        background: url(../images/camera.png) no-repeat;
-        margin-right: 44px;
-        margin-left: 44px;        
+        margin-right: 34px;
+        margin-left: 54px;        
+    }
+    #camera p
+    {
+        margin-left: -40px;
     }
     #rocket{
-        background: url(../images/rocket.png) no-repeat;
         margin-right: 44px;
-        margin-left: 44px;
-            
+        margin-left: 44px;   
+    }
+    #rocket p{
+        margin-left: -20px;
     }
     #security{
-        background: url(../images/security.png) no-repeat;
         margin-right: 44px;
         margin-left: 44px;            
+    }
+    #security p{
+        margin-left: -24px;
     }
     #archive{
-        background: url(../images/archive.png) no-repeat;
         margin-right: 44px;
-        margin-left: 44px;
-            
+        margin-left: 44px;    
+    }
+    #archive p{
+        margin-left: -23px;    
     }
     #energy{
-        background: url(../images/energy.png) no-repeat;
         margin-right: 44px;
         margin-left: 44px;            
+    }
+    #energy p{
+        margin-left: -11px;            
     }
     #protection{
-        background: url(../images/protection.png) no-repeat;
         margin-right: 44px;
         margin-left: 44px;            
     }
-#camera:hover,#rocket:hover,#security:hover,#archive:hover,#energy:hover,#protection:hover {
+     #protection p{
+        margin-left: -30px;            
+    }
+#camera:hover img,#rocket:hover img,#security:hover img,#archive:hover img,#energy:hover img,#protection:hover img{
     opacity: 0.3;
+    cursor: pointer;
 }
+#camera:hover a,#rocket:hover a,#security:hover a,#archive:hover a,#energy:hover a,#protection:hover a{
+    text-decoration: underline;
+}
+
 #next-img {
     background: url(../images/next.png) no-repeat;
     height: 31px;
     width: 21px;
-    bottom: 37px;
+    bottom: 72px;
     margin-right: 18px;
     position: relative;
     float: right;
@@ -331,6 +361,35 @@
     background: url(../images/next-hover.png) no-repeat;
     cursor: pointer;
 }
-
-
-
+#footer-information{
+    height: auto;
+    width: 545px;
+    position: absolute;
+    margin-left: 102px;
+    margin-top: 72px;
+}
+#contact-details{
+    height: auto;
+    width: 200px;
+    margin-left: 790px;
+    margin-top: 72px;
+}
+#feedback{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+}
+#footer-information p{
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 15px;
+    color: #e3e3e3;
+}
+#contact-details p{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #e3e3e3;
+}
