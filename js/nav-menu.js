@@ -37,8 +37,33 @@ $(document).ready(function() {
     $('#floating-block').slideToggle(400)
   });
 
+  $('#point1').click(function(){
+      $('#active').toggle(function(){});
+      $('#partners1').fadeIn(1000)
+     // $('#partners1').toggle('#partners1  ', {direction: "right"},100)
+     //$('#partners1').toggle(function(){});
+});
 
+/* onload = function ()
+{
+for (var lnk = document.links, j = 0; j < lnk.length; j++)
+if (lnk [j].href == document.URL) lnk [j].style.cssText = 'color:black;text-decoration:none; border:1px solid #000';
+}*/
 
+$(document).ready(function() { 
+      var url=document.location.href;
+ 
+       $.each($("div#header a"),function(e){
+    if(url==this.href){$(this).addClass('active');};
+  });
+});
+$(document).ready(function() { 
+      var url=document.location.href;
+ 
+       $.each($("div#side-bar a"),function(e){
+    if(url==this.href){$(this).addClass('active');};
+  });
+});
 
 /*jQuery('#slider').jCarouselLite({
     vertical: false,

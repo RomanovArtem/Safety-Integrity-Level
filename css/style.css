@@ -128,7 +128,7 @@
    border-bottom: 1px solid #e3e3e3;
 }
 #partners{
-    height: 416px;
+    height: 471px;
     width: 452px;
     background-color: #3E5042;
     margin-left: 102px;
@@ -143,7 +143,7 @@
     color: #e3e3e3;
 }
 #about-us{
-    height: auto;
+    height: 471px;
     width: 452px;
     background-color: #56685C;
     margin-left: 560px;
@@ -159,26 +159,85 @@
 #logo-microsoft{
     height: 40px;
     width: 188px;
-    margin-top: 40px;
+    margin-top: 42px;
     margin-left: 50px;
     background: url(../images/logo-microsoft.png);
-    outline: none;
     position: absolute;
 }
 #logo-microsoft:hover{
     background: url(../images/logo-microsoft-hover.png);
+    cursor: pointer;
 }
 #logo-intel{
     height: 70px;
     width: 101px;
-    margin-top: 30px;
+    margin-top: 32px;
     float: right;
     margin-right: 50px;
     background: url(../images/logo-intel.png) no-repeat;
-    outline: none;
 }
 #logo-intel:hover{
     background: url(../images/logo-intel-hover.png);
+}
+#logo-gazprom{
+    height: 78px;
+    width: 160px;
+    margin-top: 102px;
+    margin-left: 50px;
+    background: url(../images/logo-gazprom.png);
+    position: absolute;
+}
+#logo-gazprom:hover{
+    background: url(../images/logo-gazprom-hover.png);
+}
+#logo-sony{
+    height: 40px;
+    width: 160px;
+    margin-top: 142px;
+    float: right;
+    margin-right: -100px;
+    background: url(../images/logo-sony.png) no-repeat;
+}
+#logo-sony:hover{
+    background: url(../images/logo-sony-hover.png);
+}
+#logo-rosatom{
+    height: 100px;
+    width: 81px;
+    margin-top: 202px;
+    margin-left: 50px;
+    background: url(../images/logo-rosatom.png);
+    outline: none;
+    position: absolute;
+}
+#logo-rosatom:hover{
+    background: url(../images/logo-rosatom-hover.png);
+}
+#logo-army{
+    height: 56px;
+    width: 240px;
+    margin-top: 217px;
+    float: right;
+    margin-right: -160px;
+    background: url(../images/logo-army.png) no-repeat;
+}
+#logo-army:hover{
+    background: url(../images/logo-army-hover.png);
+}
+#point1{
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+}
+#point2{
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    margin-left: 30px;
 }
 #about-us h1 {
     padding-left: 30px;
@@ -418,6 +477,7 @@
     bottom: 21px;
     background-color: #56685C;
     cursor: pointer;
+     box-shadow: 0 0 10px;
 }
 #floating-block h1{
     text-align: center;
@@ -426,4 +486,13 @@
     font-size: 17px;
     color: #e3e3e3;
     padding-top: 17px;
+}
+#partners1{
+    display: none;
+}
+#partners2{
+    display: none;
+}
+.active {
+    border-bottom: 1px solid #e3e3e3;
 }
