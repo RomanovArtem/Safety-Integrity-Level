@@ -5,7 +5,7 @@
     src: url(../SegoeUI.ttf);
 }
 
-#header {
+.header {
     position: absolute;
     right: 0;
     left: 364px;
@@ -18,14 +18,14 @@
     background-color: #739ca2;
 }
 
-#block-body {
+.block-body {
     width: auto;
     height: 100%;
 
     border: 1px solid green;
 }
 
-#side-bar {
+.side-bar {
     position: fixed;
 
     float: left;
@@ -36,7 +36,7 @@
     background-color: #292929;
 }
 
-#content {
+.content {
     width: 1558px;
     height: auto;
     margin-top: 208px;
@@ -45,7 +45,7 @@
     border: 1px solid red;
 }
 
-#footer {
+.footer {
     position: absolute;
     right: 0;
     left: 364px;
@@ -59,14 +59,14 @@
     background-color: #86a296;
 }
 
-#logo {
+.logo {
     width: 175px;
     height: 110px;
     margin-top: 84px;
     margin-left: 71px;
 }
 
-#left-nav-menu {
+.left-nav-menu {
     position: absolute;
 
     margin-top: 54px;
@@ -74,16 +74,15 @@
     margin-left: 71px;
 }
 
-#left-nav-menu li {
+.left-nav-menu li {
     margin-top: 14px;
 }
 
-#left-nav-menu li ul
-{
+.left-nav-menu li ul {
     display: none;
 }
 
-#left-nav-menu li a {
+.left-nav-menu li a {
     font-family: 'Segoe UI';
     font-size: 16px;
     font-weight: normal;
@@ -94,17 +93,17 @@
     color: #e3e3e3;
 }
 
-#left-nav-menu li a:hover {
+.left-nav-menu li a:hover {
     border-bottom: 1px solid #e3e3e3;
 }
 
-#submenu {
+.submenu {
     padding-left: 24px;
 
     border-left: 3px solid #e3e3e3;
 }
 
-#search-area {
+.search-area {
     position: absolute;
     bottom: 0;
 
@@ -119,14 +118,14 @@
     background-color: #3f3f3f;
 }
 
-#search-area:focus {
+.search-area:focus {
     padding-left: 50px;
 
     color: #e3e3e3;
     background-color: #5f5f5f;
 }
 
-#search-img {
+.search-img {
     position: absolute;
     bottom: 0;
 
@@ -138,24 +137,24 @@
     padding-left: 10px;
 }
 
-#top-nav-menu {
+.top-nav-menu {
     margin-top: 113px;
     margin-left: 22px;
 }
 
-#top-nav-menu li {
+.top-nav-menu li {
     float: left;
 
     margin-left: 80px;
 }
 
-#top-nav-menu li {
+.top-nav-menu li {
     float: left;
 
     margin-left: 80px;
 }
 
-#top-nav-menu a {
+.top-nav-menu a {
     font-family: 'Segoe UI';
     font-size: 16px;
     font-weight: normal;
@@ -166,15 +165,15 @@
     color: #e3e3e3;
 }
 
-#top-nav-menu a:hover {
+.top-nav-menu a:hover {
     border-bottom: 1px solid #e3e3e3;
 }
 
-#top-nav-menu a:target {
+.top-nav-menu a:target {
     border-bottom: 1px solid #e3e3e3;
 }
 
-#partners {
+.partners {
     position: absolute;
 
     width: 452px;
@@ -185,7 +184,7 @@
     background-color: #3e5042;
 }
 
-#partners h1 {
+.partners h1 {
     font-family: 'Segoe UI';
     font-size: 45px;
 
@@ -195,7 +194,7 @@
     color: #e3e3e3;
 }
 
-#about-us {
+.about-us {
     position: relative;
 
     width: 452px;
@@ -205,7 +204,7 @@
     background-color: #56685c;
 }
 
-#section {
+.section {
     width: 910px;
     height: 219px;
     margin-top: 6px;
@@ -214,7 +213,7 @@
     background-color: #56685c;
 }
 
-#logo-microsoft {
+.logo-microsoft {
     position: absolute;
 
     width: 188px;
@@ -226,11 +225,11 @@
     background: url(../images/logo-microsoft.png);
 }
 
-#logo-microsoft:hover {
+.logo-microsoft:hover {
     background: url(../images/logo-microsoft-hover.png);
 }
 
-#logo-intel {
+.logo-intel {
     float: right;
 
     width: 101px;
@@ -242,11 +241,11 @@
     background: url(../images/logo-intel.png) no-repeat;
 }
 
-#logo-intel:hover {
+.logo-intel:hover {
     background: url(../images/logo-intel-hover.png);
 }
 
-#about-us h1 {
+.about-us h1 {
     font-family: 'Segoe UI';
     font-size: 45px;
 
@@ -256,7 +255,7 @@
     color: #e3e3e3;
 }
 
-#about-us-img {
+.about-us-img {
     width: 406px;
     height: 134px;
     margin-top: 40px;
@@ -266,7 +265,7 @@
     background: url(../images/about-us.png) no-repeat;
 }
 
-#about-us h2 {
+.about-us h2 {
     font-family: 'Segoe UI';
     font-size: 18px;
     font-weight: bold;
@@ -277,8 +276,7 @@
     color: #e3e3e3;
 }
 
-#information-loren-ipsum
-{
+.information-loren-ipsum {
     font-family: 'Segoe UI';
     font-size: 13px;
     font-weight: normal;
@@ -293,7 +291,7 @@
     color: #e3e3e3;
 }
 
-#about-us h3 {
+.about-us h3 {
     font-family: 'Segoe UI';
     font-size: 18px;
     font-weight: bold;
@@ -305,7 +303,7 @@
     color: #e3e3e3;
 }
 
-#about-us h4 {
+.about-us h4 {
     font-family: 'Segoe UI';
     font-size: 13px;
     font-style: italic;
@@ -320,7 +318,7 @@
     color: #e3e3e3;
 }
 
-#about-us img {
+.about-us img {
     float: left;
 
     width: 80px;
@@ -330,7 +328,7 @@
     padding-right: 13px;
 }
 
-#information-linus-torvalds {
+.information-linus-torvalds {
     font-family: 'Segoe UI';
     font-size: 13px;
     font-weight: normal;
@@ -343,7 +341,7 @@
     color: #e3e3e3;
 }
 
-#section h1 {
+.section h1 {
     font-family: 'Segoe UI';
     font-size: 45px;
 
@@ -355,7 +353,7 @@
     color: #e3e3e3;
 }
 
-#prev-img {
+.prev-img {
     position: relative;
     bottom: 72px;
 
@@ -369,25 +367,25 @@
     background: url(../images/prev.png) no-repeat;
 }
 
-#prev-img:hover {
+.prev-img:hover {
     cursor: pointer;
 
     background: url(../images/prev-hover.png) no-repeat;
 }
 
-#slider {
+.slider {
     display: block;
 
     margin-left: 40px;
     padding-top: 105px;
 }
 
-#slider li {
+.slider li {
     width: 50px;
     height: 80px;
 }
 
-#slider a {
+.slider a {
     font-family: 'Segoe UI';
     font-size: 12px;
     font-weight: normal;
@@ -400,85 +398,85 @@
     color: #e3e3e3;
 }
 
-#slider p {
+.slider p {
     margin-top: 13px;
 }
 
-#camera {
+.camera {
     margin-right: 34px;
     margin-left: 54px;
 }
 
-#camera p {
+.camera p {
     margin-left: -40px;
 }
 
-#rocket {
+.rocket {
     margin-right: 44px;
     margin-left: 44px;
 }
 
-#rocket p {
+.rocket p {
     margin-left: -20px;
 }
 
-#security {
+.security {
     margin-right: 44px;
     margin-left: 44px;
 }
 
-#security p {
+.security p {
     margin-left: -24px;
 }
 
-#archive {
+.archive {
     margin-right: 44px;
     margin-left: 44px;
 }
 
-#archive p {
+.archive p {
     margin-left: -23px;
 }
 
-#energy {
+.energy {
     margin-right: 44px;
     margin-left: 44px;
 }
 
-#energy p {
+.energy p {
     margin-left: -11px;
 }
 
-#protection {
+.protection {
     margin-right: 44px;
     margin-left: 44px;
 }
 
-#protection p {
+.protection p {
     margin-left: -30px;
 }
 
-#camera:hover img,
-#rocket:hover img,
-#security:hover img,
-#archive:hover img,
-#energy:hover img,
-#protection:hover img {
+.camera:hover img,
+.rocket:hover img,
+.security:hover img,
+.archive:hover img,
+.energy:hover img,
+.protection:hover img {
     cursor: pointer;
 
     opacity: .3;
 }
 
-#camera:hover a,
-#rocket:hover a,
-#security:hover a,
-#archive:hover a,
-#energy:hover a,
-#protection:hover a {
+.camera:hover a,
+.rocket:hover a,
+.security:hover a,
+.archive:hover a,
+.energy:hover a,
+.protection:hover a {
     text-decoration: underline;
 }
 
-#next-img {
+.next-img {
     position: relative;
     bottom: 72px;
 
@@ -491,13 +489,13 @@
     background: url(../images/next.png) no-repeat;
 }
 
-#next-img:hover {
+.next-img:hover {
     cursor: pointer;
 
     background: url(../images/next-hover.png) no-repeat;
 }
 
-#footer-information {
+.footer-information {
     position: absolute;
 
     width: 545px;
@@ -506,14 +504,14 @@
     margin-left: 102px;
 }
 
-#contact-details {
+.contact-details {
     width: 200px;
     height: auto;
     margin-top: 72px;
     margin-left: 790px;
 }
 
-#feedback {
+.feedback {
     bottom: 0;
 
     float: right;
@@ -530,7 +528,7 @@
     background-color: #56685c;
 }
 
-#footer-information p {
+.footer-information p {
     font-family: 'Segoe UI';
     font-size: 14px;
     font-weight: normal;
@@ -539,7 +537,7 @@
     color: #e3e3e3;
 }
 
-#contact-details p {
+.contact-details p {
     font-family: 'Segoe UI';
     font-size: 18px;
     font-weight: normal;
@@ -548,7 +546,7 @@
     color: #e3e3e3;
 }
 
-#feedback h1 {
+.feedback h1 {
     font-family: 'Segoe UI';
     font-size: 17px;
 
@@ -559,7 +557,7 @@
     color: #e3e3e3;
 }
 
-#floating-block {
+.floating-block {
     position: absolute;
     right: 392px;
     bottom: 21px;
@@ -575,7 +573,7 @@
     background-color: #56685c;
 }
 
-#floating-block h1 {
+.floating-block h1 {
     font-family: 'Segoe UI';
     font-size: 17px;
 
