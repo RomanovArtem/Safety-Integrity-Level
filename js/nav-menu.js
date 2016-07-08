@@ -4,7 +4,7 @@ $(document).ready(function() {
     if($('#low-voltage-systems').attr('class') != 'active')
     {
       $('#side-bar > ul > li > ul').slideDown(400);
-       // $(this).next().slideToggle(400); 
+       // $(this).next().slideToggle(400);
       $('#low-voltage-systems').removeClass('active');
       $(this).addClass('active');
     }
@@ -12,7 +12,7 @@ $(document).ready(function() {
     {
       $('side-bar > ul > li > ul').removeClass('active');
       $('#low-voltage-systems').slideDown(400);
-      $('#side-bar > ul > li > ul').slideToggle(400); 
+      $('#side-bar > ul > li > ul').slideToggle(400);
     }
 });
 
