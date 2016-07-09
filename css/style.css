@@ -463,10 +463,10 @@ body{
     width: 210px;
     background-color: #56685C;
     margin-left: 960px;
-    margin-top: 14px;
+    margin-top: -25px;
     cursor: pointer;
     float: right; 
-    margin-right: 355px;
+    margin-right: 350px;
 }
 #footer-information p{
     font-family: 'Segoe UI';
@@ -495,12 +495,12 @@ body{
     width: 210px;
     display: none;
     float: right; 
-    right: 355px;
+    right: 350px;
     position: absolute;
-    bottom: 70px;
+    bottom: 108px;
     background-color: #56685C;
     cursor: pointer;
-     box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px;
 }
 #floating-block h1{
     text-align: center;
