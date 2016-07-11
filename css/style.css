@@ -5,7 +5,7 @@
 }
 body{
    /* overflow-x:hidden; */
-   overflow:hidden;
+   overflow-x:hidden;
 }
 #header{ 
     height: 208px;
@@ -13,8 +13,7 @@ body{
     float: right;
     position: absolute;
 }
-#block-body{
-    border: 1px solid green;  
+#block-body{  
     height: 1200px;
     width: auto;
     position: absolute;
@@ -40,7 +39,8 @@ body{
     height: auto;
     margin-top: 208px;
     margin-left: 102px;
-    width: 1558px;
+   /* width: 1558px;*/
+   width: auto;
 }
 #footer{
     clear:both; 
@@ -515,4 +515,81 @@ body{
 }
 .current {
     border-bottom: 1px solid #e3e3e3;
+}
+#content-new{
+    height: 701px;
+    margin-top: 208px;
+    margin-left: 102px;
+   /* width: 1558px;*/
+   background-color: #56685C;
+   width: auto;
+   padding-top: 10px;
+}
+#contacts{
+    height: 608px;
+    width: 937px;
+    position: relative;
+    background-color: #56685C;
+}
+#contacts h1 {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Segoe UI';
+    font-size: 45px;
+    color: #e3e3e3;
+    position: absolute;
+}
+#contacts img {
+    margin-left: 18px;
+    margin-top: 109px;
+}
+#scroller{
+    overflow-y: auto;
+    margin-right: 4px;
+}
+#contacts-information{
+    width: 520px;
+    height: auto;
+    margin-top: 22px;
+    margin-left: 18px;
+}
+#first-contacts-information {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 15px;
+    color: #e3e3e3;
+    padding-bottom: 50px;
+}
+/*#second-contacts-information {
+    width: 520px;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 15px;
+    color: #e3e3e3;
+    margin-left: 18px;
+    bottom: 93px;
+}*/
+#contact-numbers{
+    width: 190px;
+    height: 100px;
+    right: 186px;
+    float: right;
+    bottom: 23px;
+    position: absolute;
+}
+#first-number, #second-number{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #e3e3e3;
+}
+#mail{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 55px;
+    color: #e3e3e3;
 }
