@@ -1,11 +1,13 @@
 
+
 @font-face{
     font-family: 'Segoe UI';
     src: url(../SegoeUI.ttf);
 }
 body{
-   /* overflow-x:hidden; */
-   overflow-x:hidden;
+    
+    overflow-x:hidden; 
+   overflow-y: hidden;
 }
 #header{ 
     height: 208px;
@@ -14,7 +16,8 @@ body{
     position: absolute;
 }
 #block-body{  
-    height: 1200px;
+    /*height: 1200px;*/
+    height: auto;
     width: auto;
     position: absolute;
     left: 364px;
@@ -37,16 +40,15 @@ body{
 }
 #content{
     height: auto;
-    margin-top: 208px;
+    margin-top: 165px;
     margin-left: 102px;
    /* width: 1558px;*/
    width: auto;
 }
 #footer{
-    clear:both; 
     height: 249px;
     width: 1558px;
-    position: absolute;
+  /*  position: absolute;*/
 }
 #logo{
     width: 175px;
@@ -111,7 +113,7 @@ body{
 }
 #top-nav-menu{
    margin-left: 22px;
-   margin-top: 113px;
+   margin-top: 95px;
 }
 #top-nav-menu li{
    float: left;
@@ -450,23 +452,22 @@ body{
     width: 545px;
     position: absolute;
     margin-left: 102px;
-    margin-top: 72px;
+    /*margin-top: 72px;*/
 }
 #contact-details{
     height: auto;
     width: 200px;
     margin-left: 790px;
-    margin-top: 72px;
+    margin-top: 50px;
 }
 #feedback{
     height: 46px;
     width: 210px;
     background-color: #56685C;
     margin-left: 960px;
-    margin-top: -25px;
-    cursor: pointer;
-    float: right; 
-    margin-right: 350px;
+    cursor: pointer; 
+    margin-left: 1035px;
+    position: absolute;
 }
 #footer-information p{
     font-family: 'Segoe UI';
@@ -495,9 +496,9 @@ body{
     width: 210px;
     display: none;
     float: right; 
-    right: 350px;
+    right: 313px;
     position: absolute;
-    bottom: 108px;
+    bottom: 153px;
     background-color: #56685C;
     cursor: pointer;
     box-shadow: 0 0 10px;

@@ -208,6 +208,7 @@ $.fn.jCarouselLite = function(o) {
         btnGo: null,
         mouseWheel: false,
         auto: null,
+        hoverPause: false,
 
         speed: 200,
         easing: null,
@@ -228,9 +229,9 @@ $.fn.jCarouselLite = function(o) {
         var div = $(this), ul = $("ul", div), tLi = $("li", ul), tl = tLi.size(), v = o.visible;
 
         if(o.circular) {
-            ul.prepend(tLi.slice(tl-v-1+1).clone())
-              .append(tLi.slice(0,v).clone());
-            o.start += v;
+            ul.prepend(tLi.slice(tl-v+1).clone())
+              .append(tLi.slice(0,o.scroll).clone());
+            o.start += v-1;
         }
 
         var li = $("li", ul), itemLength = li.size(), curr = o.start;
@@ -249,15 +250,24 @@ $.fn.jCarouselLite = function(o) {
 
         div.css(sizeCss, divSize+"px");                     // Width of the DIV. length of visible images
 
-        if(o.btnPrev)
+        if(o.btnPrev) {
             $(o.btnPrev).click(function() {
                 return go(curr-o.scroll);
             });
+            if(o.hoverPause) {
+                $(o.btnPrev).hover(function(){stopAuto();}, function(){startAuto();});
+            }
+        }
 
-        if(o.btnNext)
+
+        if(o.btnNext) {
             $(o.btnNext).click(function() {
                 return go(curr+o.scroll);
             });
+            if(o.hoverPause) {
+                $(o.btnNext).hover(function(){stopAuto();}, function(){startAuto();});
+            }
+        }
 
         if(o.btnGo)
             $.each(o.btnGo, function(i, val) {
@@ -271,10 +281,25 @@ $.fn.jCarouselLite = function(o) {
                 return d>0 ? go(curr-o.scroll) : go(curr+o.scroll);
             });
 
-        if(o.auto)
-            setInterval(function() {
-                go(curr+o.scroll);
-            }, o.auto+o.speed);
+        var autoInterval;
+
+        function startAuto() {
+          stopAuto();
+          autoInterval = setInterval(function() {
+                  go(curr+o.scroll);
+              }, o.auto+o.speed);
+        };
+
+        function stopAuto() {
+            clearInterval(autoInterval);
+        };
+
+        if(o.auto) {
+            if(o.hoverPause) {
+                div.hover(function(){stopAuto();}, function(){startAuto();});
+            }
+            startAuto();
+        };
 
         function vis() {
             return li.slice(curr).slice(0,v);
@@ -287,14 +312,12 @@ $.fn.jCarouselLite = function(o) {
                     o.beforeStart.call(this, vis());
 
                 if(o.circular) {            // If circular we are in first or last, then goto the other end
-                    if(to<=o.start-v-1) {           // If first, then goto last
-                        ul.css(animCss, -((itemLength-(v*2))*liSize)+"px");
-                        // If "scroll" > 1, then the "to" might not be equal to the condition; it can be lesser depending on the number of elements.
-                        curr = to==o.start-v-1 ? itemLength-(v*2)-1 : itemLength-(v*2)-o.scroll;
-                    } else if(to>=itemLength-v+1) { // If last, then goto first
-                        ul.css(animCss, -( (v) * liSize ) + "px" );
-                        // If "scroll" > 1, then the "to" might not be equal to the condition; it can be greater depending on the number of elements.
-                        curr = to==itemLength-v+1 ? v+1 : v+o.scroll;
+                    if(to<0) {           // If before range, then go around
+                        ul.css(animCss, -( (curr + tl) * liSize)+"px");
+                        curr = to + tl;
+                    } else if(to>itemLength-v) { // If beyond range, then come around
+                        ul.css(animCss, -( (curr - tl) * liSize ) + "px" );
+                        curr = to - tl;
                     } else curr = to;
                 } else {                    // If non-circular and to points to first or last, we just return.
                     if(to<0 || to>itemLength-v) return;

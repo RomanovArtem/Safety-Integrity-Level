@@ -21,8 +21,10 @@ $(document).ready(function() {
     hoverPause:true,
     btnPrev: '#prev-img',
     btnNext: "#next-img",
+    speed: 2000,
     visible: 6,
-    speed: 500
+    speed: 500,
+    auto: 500,
   });
 
   $('#feedback').click(function(){
