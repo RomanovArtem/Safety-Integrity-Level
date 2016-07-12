@@ -9,62 +9,66 @@ body{
     overflow-x:hidden; 
    overflow-y: hidden;
        scrollbar-base-color: #3A473D;
+       
 }
 #header{ 
-    height: 208px;
-    width: 1558px;
+    height: 16%;
+    width: 100%;
     float: right;
     position: absolute;
 }
 #block-body{  
-    /*height: 1200px;*/
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 81%;
     position: absolute;
-    left: 364px;
+    left: 19%;
     
 }
 #background{
     position:fixed;
-        z-index: -1;
-        top:0;
-        left:0; 
-        min-width:100%;
-        min-height:100%;
+    z-index: -1;
+    left:0; 
+
 }
 #side-bar{
     height: 100%;
-    width: 364px; 
+    width: 19%; 
     float: left;
     position: fixed;
     background-color: #292929;
 }
 #content{
-    height: auto;
-    margin-top: 165px;
-    margin-left: 102px;
-   /* width: 1558px;*/
-   width: auto;
+    height: 68.5%;
+    margin-top: 10.5%;
+    margin-left: 6.5%;
+    width: 94%;
 }
 #footer{
-    height: 249px;
-    width: 1558px;
-  /*  position: absolute;*/
+    height: 11%;
+    width: 100%;
+    margin-left: 6%;
+    padding-top: 3%;
 }
-#logo{
-    width: 175px;
-    height: 110px;
-    margin-top: 84px;
-    margin-left: 71px;
+#logo {
+    width: 48%;
+    height: 11%;
+    margin-top: 23%;
+    margin-left: 19.5%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
 }
 #left-nav-menu{
-    margin-left: 71px;
-    margin-right: 40px;
-    margin-top: 54px;
+    height: 18.5%;
+    width: 50%;
+    margin-left: 20.5%;
+    margin-left: 29.5%;
+    margin-top: 15%;
     position: absolute;
 }
 #left-nav-menu li{
-    margin-top: 14px;   
+    margin-top: 8%;   
 }
 #left-nav-menu li ul{
     display: none;
@@ -82,47 +86,45 @@ body{
 }
 #submenu{
     border-left: 3px solid #e3e3e3;
-    padding-left: 24px;
+    padding-left: 13%;
     
 }
 #search-area{
-    margin-left: 71px;
-    width: 222px;
-    height: 27px;
-    margin-bottom: 115px;
+    margin-left: 20.5%;
+    width: 61%;
+    height: 3%;
     position: absolute;
-    bottom: 0px;
+    bottom: 11.2%;
+    top: 85.8%;
     background-color: #3F3F3F;
     outline: none;
     border: none;
-    padding-left: 50px;
+    padding-left: 14%;
 }
 #search-area:focus{
     background-color: #5F5F5F;
     color: #e3e3e3;
-    padding-left: 50px;
 }
 #search-img{
-    margin-left: 71px;
-    width: 24px;
-    height: 24px;
-    margin-bottom: 115px;
+    width: 7%;
+    height: 2.5%;
     position: absolute;
-    bottom: 0px;
-    padding-left: 10px;
-    padding-bottom: 2px;
+    top: 86%;
+    bottom: 11.5%;
+    left: 22%;
+    right: 71%;
 }
 #top-nav-menu{
-   margin-left: 22px;
-   margin-top: 95px;
+   height: 41%;
+   width: 99%;
+   position: absolute;
+   left: 1.4%;
+   top: 69.4%;
+   
 }
 #top-nav-menu li{
    float: left;
-   margin-left: 80px;
-}
-#top-nav-menu li{
-   float: left;
-   margin-left: 80px;
+   margin-left: 5.2%;
 }
 #top-nav-menu a{
     text-decoration: none;
@@ -139,10 +141,12 @@ body{
    border-bottom: 1px solid #e3e3e3;
 }
 #partners{
-    height: 471px;
-    width: 452px;
+    height: 46.3%;
+    width: 29%;
     background-color: #3E5042;
     position: absolute;
+    top: 16%;
+    bottom: 37.7%;
 }
 #partners h1 {
     padding-left: 30px;
@@ -152,16 +156,20 @@ body{
     color: #e3e3e3;
 }
 #about-us{
-    height: 471px;
-    width: 452px;
+    height: 46.3%;
+    width: 29%;
     background-color: #56685C;
-    margin-left: 457px;
-    position: relative;
+    margin-left: 29.4%;
+    position: absolute;
+    top: 16%;
+    bottom: 37.7%;
 }
 #section{
-    height: 219px;
-    width: 910px;
-    margin-top: 6px;
+    height: 21.6%;
+    width: 58.4%;
+    position: absolute;
+    top: 63%;
+    bottom: 15.4%;
     background-color: #56685C;
 }
 #logo-microsoft{
@@ -275,8 +283,8 @@ body{
     color: #e3e3e3;
 }
 #about-us-img{
-    height: 134px;
-    width: 406px;
+    height: 28%;
+    width: 90%;
     margin-top: 40px;
     margin-left: 23px;
     margin-right: 23px;
@@ -315,15 +323,13 @@ body{
     font-size: 13px;
     font-style: italic;
     color: #e3e3e3;
-    margin-right: 23px;
-    margin-left: 20px;
-    margin-top: -13px;
     position: absolute;
-    right: 0;
+    right: 30px;
+    bottom: 98px
 }
 #about-us img {
-    width: 80px;
-    height: 89px;
+    width: 18%;
+    height: 19%;
     margin-left: 23px;
     margin-top: 19px;
     float: left;
@@ -449,26 +455,25 @@ body{
     cursor: pointer;
 }
 #footer-information{
-    height: auto;
-    width: 545px;
+    height: 5%;
+    width: 35%;
     position: absolute;
-    margin-left: 102px;
-    /*margin-top: 72px;*/
 }
 #contact-details{
-    height: auto;
-    width: 200px;
-    margin-left: 790px;
-    margin-top: 50px;
+    height:  5%;
+    width: 13%;
+    position: absolute;
+    left: 47%;
+    right: 40%;
 }
 #feedback{
-    height: 46px;
-    width: 210px;
+    height: 4.5%;
+    width: 13.5%;
     background-color: #56685C;
-    margin-left: 960px;
     cursor: pointer; 
-    margin-left: 1035px;
     position: absolute;
+    right: 25%;
+    left: 61.5%;
 }
 #footer-information p{
     font-family: 'Segoe UI';
@@ -488,9 +493,9 @@ body{
     text-align: center;
     line-height = height;
     font-family: 'Segoe UI';
-    font-size: 17px;
+    font-size: 100%;
     color: #e3e3e3;
-    padding-top: 17px;
+    padding-top: 7%;
 }
 #floating-block{
     height: 261px;
