@@ -22,13 +22,12 @@ body{
     width: 81%;
     position: absolute;
     left: 19%;
-    
 }
 #background{
     position:fixed;
     z-index: -1;
     left:0; 
-
+    background-size: 100%;
 }
 #side-bar{
     height: 100%;
@@ -48,6 +47,12 @@ body{
     width: 100%;
     margin-left: 6%;
     padding-top: 3%;
+}
+#footer-second-page{
+    height: 11%;
+    width: 100%;
+    margin-left: 6%;
+    padding-top: 2.2%;
 }
 #logo {
     width: 48%;
@@ -498,13 +503,13 @@ body{
     border-bottom: 1px solid #e3e3e3;
 }
 
-#content-new{
-    height: 701px;
-    margin-top: 208px;
-    margin-left: 102px;
-    width: 1100px;
-   background-color: #56685C;
-   padding-top: 10px;
+#content-second-page{
+    height: 69%;
+    margin-top: 10.5%;
+    margin-left: 6.5%;
+    width: 60.5%;
+    background-color: #56685C;
+    padding-top: 0.5%;
 }
 #scroller{
     overflow-x: hidden;

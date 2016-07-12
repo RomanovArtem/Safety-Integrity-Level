@@ -21,10 +21,10 @@ $(document).ready(function() {
 $('#low-voltage-systems').click(function(){
       $('#submenu').slideDown(400);
   });
-  $('#kek').mouseenter(function(){
+  $('#block-submenu').mouseenter(function(){
       $('#submenu').slideDown(400);
   });
-  $('#kek').mouseleave(function(){
+  $('#block-submenu').mouseleave(function(){
       $('#submenu').slideToggle(400); 
 });
 
