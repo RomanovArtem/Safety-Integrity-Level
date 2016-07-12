@@ -68,11 +68,10 @@ body{
     position: absolute;
 }
 #left-nav-menu li{
-    margin-top: 8%;   
+    /*margin-top: 8%;*/   
+    line-height: 190%;
 }
-#left-nav-menu li ul{
-    display: none;
-}
+
 #left-nav-menu li a{
     text-decoration: none;
     font-family: 'Segoe UI';
@@ -87,7 +86,8 @@ body{
 #submenu{
     border-left: 3px solid #e3e3e3;
     padding-left: 13%;
-    
+    height: auto; 
+    display: none; 
 }
 #search-area{
     margin-left: 20.5%;
@@ -404,17 +404,14 @@ body{
     position: absolute;
     padding-left: 44px;
     padding-right: 44px;
-    width: 3.1%;
-    height: 50px;
+    width: 52px;
+    height: 52px;
     vertical-align: middle;
 }
     
-   
-#section-img:hover{
+#slider a:hover{
     opacity: 0.3;
     cursor: pointer;
-}
-#section-text:hover {
     text-decoration: underline;
 }
 
@@ -449,8 +446,8 @@ body{
     background-color: #56685C;
     cursor: pointer; 
     position: absolute;
-    right: 25%;
-    left: 61.5%;
+    right: 22%;
+    left: 64.5%;
 }
 #footer-information p{
     font-family: 'Segoe UI';
@@ -479,7 +476,7 @@ body{
     width: 13.3%;
     display: none;
     float: right; 
-    right: 25.1%;
+    right: 22.1%;
     position: absolute;
     bottom: 6.6%;
     background-color: #56685C;
