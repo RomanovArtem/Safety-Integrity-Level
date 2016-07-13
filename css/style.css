@@ -18,10 +18,10 @@ body{
     position: absolute;
 }
 #block-body{  
-    height: 100%;
-    width: 81%;
+    height: 100vh;
+    width: 81vw;
     position: absolute;
-    left: 19%;
+    left: 19vw;
 }
 #background{
     position:fixed;
@@ -30,14 +30,14 @@ body{
     background-size: 100%;
 }
 #side-bar{
-    height: 100%;
-    width: 19%; 
+    height: 100vh;
+    width: 19vw; 
     float: left;
     position: fixed;
     background-color: #292929;
 }
 #content{
-    height: 68.5%;
+    height: 68.5vh;
     margin-top: 10.5%;
     margin-left: 6.5%;
     width: 94%;
@@ -55,21 +55,18 @@ body{
     padding-top: 2.2%;
 }
 #logo {
-    width: 48%;
-    height: 11%;
-    margin-top: 23%;
-    margin-left: 19.5%;
+    width: 9.2vw;
+    height: 11vh;
+    margin-top: 8.3vh;
+    margin-left: 3.7vw;
 }
 #logo img{
     width: 100%;
     height: 100%;
 }
 #left-nav-menu{
-    height: 18.5%;
-    width: 50%;
-    margin-left: 20.5%;
-    margin-left: 29.5%;
-    margin-top: 15%;
+    margin-left: 3.7vw;
+    margin-top: 6.7vh;
     position: absolute;
 }
 #left-nav-menu li{
@@ -95,9 +92,8 @@ body{
     display: none; 
 }
 #search-area{
-    margin-left: 20.5%;
-    width: 61%;
-    height: 3%;
+    margin-left: 3.7vw;
+    width: 11.6vw;
     position: absolute;
     bottom: 11.2%;
     top: 85.8%;
@@ -154,20 +150,21 @@ body{
     bottom: 37.7%;
 }
 #partners h1 {
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 6.7%;
+    padding-top: 6.7%;
+    padding-bottom: 6.7%;
     font-family: 'Segoe UI';
-    font-size: 45px;
+    font-size: 4.5vh;
     color: #e3e3e3;
 }
 #about-us{
-    height: 46.3%;
+    height: 46vh;
     width: 29%;
     background-color: #56685C;
     margin-left: 29.4%;
     position: absolute;
     top: 16%;
-    bottom: 37.7%;
+    padding-bottom: 0.3vh
 }
 #section{
     height: 21.6%;
@@ -177,76 +174,29 @@ body{
     bottom: 15.4%;
     background-color: #56685C;
 }
-#logo-microsoft{
-    height: 8.5%;
-    width: 41.5%;
-    margin-top: 9.3%;
-    margin-left: 11%;
-    background: url(../images/logo-microsoft.png) no-repeat;
-    background-size: 100%;
-    position: absolute;
+#partners-logo{
+    margin-left: 6.7%;
+    margin-right: 6.7%;
+    margin-top: 1.1%;
+    margin-bottom: 1.1%;
+    width: 8.4vw;
+    height: 9vh;
+    float: left;    
+    list-style-type: none;
+    background-position: center;
 }
-#logo-microsoft:hover{
-    background: url(../images/logo-microsoft-hover.png) no-repeat;
-    background-size: 100%;
+#partners-logo img{
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #29362D;
+}
+#partners-logo img:hover{
     cursor: pointer;
+    background-color: #B9BFBB;
 }
-#logo-intel{
-    height: 70px;
-    width: 101px;
-    margin-top: 32px;
-    float: right;
-    margin-right: 50px;
-    background: url(../images/logo-intel.png) no-repeat;
-}
-#logo-intel:hover{
-    background: url(../images/logo-intel-hover.png) no-repeat;
-}
-#logo-gazprom{
-    height: 78px;
-    width: 160px;
-    margin-top: 102px;
-    margin-left: 50px;
-    background: url(../images/logo-gazprom.png);
-    position: absolute;
-}
-#logo-gazprom:hover{
-    background: url(../images/logo-gazprom-hover.png);
-}
-#logo-sony{
-    height: 40px;
-    width: 160px;
-    margin-top: 142px;
-    float: right;
-    margin-right: -100px;
-    background: url(../images/logo-sony.png) no-repeat;
-}
-#logo-sony:hover{
-    background: url(../images/logo-sony-hover.png);
-}
-#logo-rosatom{
-    height: 100px;
-    width: 81px;
-    margin-top: 202px;
-    margin-left: 50px;
-    background: url(../images/logo-rosatom.png);
-    outline: none;
-    position: absolute;
-}
-#logo-rosatom:hover{
-    background: url(../images/logo-rosatom-hover.png);
-}
-#logo-army{
-    height: 56px;
-    width: 240px;
-    margin-top: 217px;
-    float: right;
-    margin-right: -160px;
-    background: url(../images/logo-army.png) no-repeat;
-}
-#logo-army:hover{
-    background: url(../images/logo-army-hover.png);
-}
+
 #point1{
     height: 20px;
     width: 20px;
@@ -283,10 +233,11 @@ body{
     border-radius: 20px;
 }
 #about-us h1 {
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 6.7%;
+    padding-top: 6.7%;
     font-family: 'Segoe UI';
-    font-size: 45px;
+    font-size: 4.5vh;
+
     color: #e3e3e3;
 }
 #about-us-img{
@@ -295,95 +246,95 @@ body{
     margin-top: 8.9%;
     margin-left: 5.1%;
     margin-right: 5.1%;
-    background: url(../images/about-us.png) no-repeat;
+    background: url(../images/about-us.png) no-repeat center;
+    background-size: 100%;
 }
 #about-us h2 {
     font-family: 'Segoe UI';
-    font-size: 18px;
+    font-size: 1.8vh;
     font-weight: bold;
     color: #e3e3e3;
-    margin-top: 15px;
-    margin-left: 23px;
+    margin-top: 3.4%;
+    margin-left: 5.1%;
 }
 #information-loren-ipsum {
-    clear: both;
     font-family: 'Segoe UI';
-    font-size: 13px;
+    font-size: 1.3vh;
     font-weight: normal;
     line-height: 15px;
     color: #e3e3e3;
-    margin-top: 12px;
-    margin-left: 23px;
-    margin-right: 23px;
+    margin-top: 2.7%;
+    margin-left: 5.1%;
+    margin-right: 5.1%;
 }
 #about-us h3 {
     font-family: 'Segoe UI';
-    font-size: 18px;
+    font-size: 1.8vh;
     font-weight: bold;
     color: #e3e3e3;
-    margin-top: 19px;
-    margin-left: 117px;
-    padding-right: 20px;
+    margin-top: 4.2%;
+
 }
 #about-us h4 {
     font-family: 'Segoe UI';
-    font-size: 13px;
+    font-size: 1.2vh;
     font-style: italic;
     color: #e3e3e3;
     position: absolute;
-    right: 30px;
-    bottom: 98px;
+    right: 6.7%;
+    bottom: 21%;
     top: 77%;
 }
 #about-us img {
-    width: 18%;
-    height: 19%;
-    margin-left: 23px;
-    margin-top: 19px;
+    width: 5vw;
+    height: 9vh;
+    margin-left: 1.2vw;
+    margin-top: 2vh;
     float: left;
-    padding-right: 13px;
+    padding-right: 0.5vw;
 
 }
 #information-linus-torvalds {
     font-family: 'Segoe UI';
-    font-size: 13px;
+    font-size: 1.3vh;
     font-weight: normal;
     line-height: 15px;
     color: #e3e3e3;
-    margin-top: 12px;
-    margin-right: 23px;
-    padding-bottom: 23px;
+    margin-top: 2.7%;
+    margin-right: 5.1%;
 }
 #section h1 {
     padding-left: 28px;
     padding-top: 30px;
     font-family: 'Segoe UI';
-    font-size: 45px;
+    font-size: 4.5vh;
     color: #e3e3e3;
     position: absolute;
 }
 #prev-img {
-    clear: both;
-    height: 31px;
-    width: 21px;
-    margin-left: 18px;
-    bottom: 72px;
+    height: 17%;
+    width: 2.5%;
+    margin-left: 2%;
+    bottom: 33%;
+    top: -33%;
     position: relative;
     float: left;
     background: url(../images/prev.png) no-repeat;
+    background-size: 100%;
 }
 #prev-img:hover {
     background: url(../images/prev-hover.png) no-repeat;
+    background-size: 100%;
     cursor: pointer;
 }
 #slider{
     padding-top: 11.5%;
     display: block;
-    margin-left: 40px;
+    margin-left: 2.5vw;
 }
 #slider li{
-    height: 80px;
-    width: 130px;
+    height: 9vh;
+    width: 6.6vw;
     padding-left: 4px;
     padding-right: 4px;
 }
@@ -398,20 +349,17 @@ body{
 #section-text
 {
     margin-top: 45%;
-    width: 127px;
-    height: 16px;
+    width: 6.6vw;
+    height: 2vh;
     text-align: center;
     margin-left: 5px;
 
 }
 #section-img
 {
+    width: 3.5%;
     position: absolute;
-    padding-left: 44px;
-    padding-right: 44px;
-    width: 52px;
-    height: 52px;
-    vertical-align: middle;
+    padding-left: 2.2vw;
 }
     
 #slider a:hover{
@@ -422,15 +370,18 @@ body{
 
 #next-img {
     background: url(../images/next.png) no-repeat;
-    height: 31px;
-    width: 21px;
-    bottom: 72px;
-    margin-right: 18px;
+    background-size: 100%;
+    height: 17%;
+    width: 2.5%;
+    margin-right: 2%;
+    bottom: 33%;
+    top: -33%;
     position: relative;
     float: right;
 }
 #next-img:hover {
     background: url(../images/next-hover.png) no-repeat;
+    background-size: 100%;
     cursor: pointer;
 }
 #footer-information{

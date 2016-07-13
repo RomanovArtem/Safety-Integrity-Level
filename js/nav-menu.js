@@ -36,7 +36,7 @@ $('#low-voltage-systems').click(function(){
     btnNext: "#next-img",
     visible: 6,
     speed: 500,
-    auto: 500,
+
   });
 
   $('#feedback').click(function(){
