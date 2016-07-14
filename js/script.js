@@ -4,7 +4,7 @@
     if($('#low-voltage-systems').attr('class') != 'active')
     {
       $('#side-bar > ul > li > ul').slideDown(400);
-       // $(this).next().slideToggle(400); 
+       // $(this).next().slideToggle(400);
       $('#low-voltage-systems').removeClass('active');
       $(this).addClass('active');
     }
@@ -12,7 +12,7 @@
     {
       $('side-bar > ul > li > ul').removeClass('active');
       $('#low-voltage-systems').slideDown(400);
-      $('#side-bar > ul > li > ul').slideToggle(400); 
+      $('#side-bar > ul > li > ul').slideToggle(400);
     }
 });*/
 
@@ -25,7 +25,7 @@ $('#low-voltage-systems').click(function(){
       $('#submenu').slideDown(400);
   });
   $('#block-submenu').mouseleave(function(){
-      $('#submenu').slideToggle(400); 
+      $('#submenu').slideToggle(400);
 });
 
 
@@ -130,17 +130,17 @@ $('#low-voltage-systems').click(function(){
 
 
 
-$(document).ready(function() { 
+$(document).ready(function() {
       var url=document.location.href;
- 
+
        $.each($("div#header a"),function(e){
     if(url==this.href){$(this).addClass('current');};
   });
 });
-$(document).ready(function() { 
+$(document).ready(function() {
       var url=document.location.href;
- 
-       $.each($("div#side-bar a"),function(e){
+
+       $.each($("ul#left-nav-menu a"),function(e){
     if(url==this.href){$(this).addClass('current');};
   });
 });
