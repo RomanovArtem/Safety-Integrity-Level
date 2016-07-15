@@ -170,28 +170,6 @@ body{
     bottom: 15.4%;
     background-color: #56685C;
 }
-#partners-logo{
-    margin-left: 6.7%;
-    margin-right: 6.7%;
-    margin-top: 1.1%;
-    margin-bottom: 1.1%;
-    width: 8.4vw;
-    height: 9vh;
-    float: left;
-    list-style-type: none;
-    background-position: center;
-}
-#partners-logo img{
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
-    background-color: #29362D;
-}
-#partners-logo img:hover{
-    cursor: pointer;
-    background-color: #B9BFBB;
-}
 
 #point1{
     height: 20px;
@@ -604,4 +582,78 @@ body{
     padding-top: 11.8%;
     height: 55.1%;
     width: 80.5%;
+}
+
+
+
+
+
+/*#slide1{
+    margin-left: 6.7%;
+    margin-right: 6.7%;
+    margin-top: 1.1%;
+    margin-bottom: 1.1%;
+    width: 8.4vw;
+    height: 9vh;
+    float: left;
+    list-style-type: none;
+    background-position: center;
+}
+#slide1 img{
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: #29362D;
+}
+#slide1 img:hover{
+    cursor: pointer;
+    background-color: #B9BFBB;
+}*/
+
+
+.viewport{
+    width: 20.4vw;
+    height: 33vh;
+    overflow: hidden;
+    position: relative;
+    margin-left: 6.7%;
+
+}
+.slidewrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 33vh;
+    margin: 0;
+    padding: 0;
+}
+.slide{
+    width: 20.4vw;
+    height: 33vh;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #ff0000;
+}
+.second{
+     background: #00ff00;
+}
+.third{
+     background: #0000ff;
+}
+.toggles{
+    margin-left: 45%;
+}
+.dot{
+    display: inline-block;
+    width: 0.53vw;
+    height: 1vh;
+    border-radius: 50%;
+    background: #ccc;
+}
+.dot.active{
+    background: #999;
+}
 }
