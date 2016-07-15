@@ -600,12 +600,12 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-    background: #ffffff;
+    background: #3E5042;
 }
 #slide-logo{
     float: left;
-    width: 193.8px;
-    height: 110px;
+    width: 10vw;
+    height: 10.9vh;
     border: 1px solid black;
     background-color: #AAAAAA;
     text-align: center;
