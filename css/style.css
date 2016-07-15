@@ -139,7 +139,7 @@ body{
 }
 #partners{
     height: 46.3%;
-    width: 29%;
+    width: 30%;
     background-color: #3E5042;
     position: absolute;
     top: 16%;
@@ -155,57 +155,22 @@ body{
 }
 #about-us{
     height: 46vh;
-    width: 29%;
+    width: 30.1%;
     background-color: #56685C;
-    margin-left: 29.4%;
+    margin-left: 30.4%;
     position: absolute;
     top: 16%;
     padding-bottom: 0.3vh
 }
 #section{
     height: 21.6%;
-    width: 58.4%;
+    width: 60.5%;
     position: absolute;
     top: 63%;
     bottom: 15.4%;
     background-color: #56685C;
 }
 
-#point1{
-    height: 20px;
-    width: 20px;
-    background-color: #FFFFFF;
-    position: absolute;
-    bottom: 0;
-    border-radius: 20px;
-}
-#point2{
-    height: 20px;
-    width: 20px;
-    background-color: #FFFFFF;
-    position: absolute;
-    bottom: 0;
-    margin-left: 30px;
-    border-radius: 20px;
-}
-#point3{
-    height: 20px;
-    width: 20px;
-    background-color: #FFFFFF;
-    position: absolute;
-    bottom: 0;
-    margin-left: 60px;
-    border-radius: 20px;
-}
-#point4{
-    height: 20px;
-    width: 20px;
-    background-color: #FFFFFF;
-    position: absolute;
-    bottom: 0;
-    margin-left: 90px;
-    border-radius: 20px;
-}
 #about-us h1 {
     padding-left: 6.7%;
     padding-top: 6.7%;
@@ -308,7 +273,7 @@ body{
 }
 #slider li{
     height: 9vh;
-    width: 6.6vw;
+    width: 6.9vw;
     padding-left: 0.21vw;
     padding-right: 0.21vw;
 }
@@ -364,8 +329,8 @@ body{
     height:  5%;
     width: 13%;
     position: absolute;
-    left: 45.8%;
-    right: 41.2%;
+    left: 47.8%;
+    right: 39.2%;
 }
 #feedback{
     height: 41.5%;
@@ -373,8 +338,8 @@ body{
     background-color: #56685C;
     cursor: pointer;
     position: absolute;
-    right: 27%;
-    left: 59.5%;
+    right: 25%;
+    left: 61.5%;
     bottom: 5%;
 }
 #footer-information p{
@@ -403,8 +368,8 @@ body{
 #floating-block{
     height: 25.7vh;
     width: 13.6%;
-    right: 27%;
-    left: 59.57%;
+    right: 25%;
+    left: 61.5%;
     bottom: 5%;
     display: none;
     float: right;
@@ -558,7 +523,7 @@ body{
 #second-page-numbers{
     width: 20.5%;
     height: 16.5%;
-    right: 16%;
+    right: 2%;
     float: right;
     bottom: 7%;
     position: absolute;
@@ -581,7 +546,7 @@ body{
     padding-left: 2%;
     padding-top: 11.8%;
     height: 55.1%;
-    width: 80.5%;
+    width: 75.5%;
 }
 
 
@@ -635,16 +600,40 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-    background: #ff0000;
+    background: #ffffff;
 }
+#slide-logo{
+    float: left;
+    width: 193.8px;
+    height: 110px;
+    border: 1px solid black;
+    background-color: #AAAAAA;
+    text-align: center;
+    vertical-align: middle;
+
+}
+#slide-logo img{
+    height: 100%
+    border: 1px solid red;
+    position:relative;
+    top: inherit;
+}
+
+
 .second{
      background: #00ff00;
 }
 .third{
      background: #0000ff;
 }
+.four {
+    background: #000fff;
+}
+.five {
+    background: #0f0fff;
+}
 .toggles{
-    margin-left: 45%;
+    text-align: center;
 }
 .dot{
     display: inline-block;
@@ -655,5 +644,4 @@ body{
 }
 .dot.active{
     background: #999;
-}
 }
