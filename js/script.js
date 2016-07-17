@@ -159,21 +159,21 @@ var slideWidth = $(window).width() * 0.204;
 var dot_counter = 0;
     $(function () {
         $('.slidewrapper').width($('.slidewrapper').children().size() * slideWidth);
-        sliderTimer = setInterval(nextSlide, 999999);
+        sliderTimer = setInterval(nextSlide, 3000);
         $('.viewport').hover(function () {
             clearInterval(sliderTimer);
         }, function () {
-            sliderTimer = setInterval(prevSlide, 999999);
+            sliderTimer = setInterval(prevSlide, 3000);
         });
         $('#next_slide').click(function () {
             clearInterval(sliderTimer);
             nextSlide();
-            sliderTimer = setInterval(nextSlide, 999999);
+            sliderTimer = setInterval(nextSlide, 3000);
         });
         $('#prev_slide').click(function () {
             clearInterval(sliderTimer);
             prevSlide();
-            sliderTimer = setInterval(nextSlide, 999999);
+            sliderTimer = setInterval(nextSlide, 3000);
         });
         $('.dot').click(function () {
             $('.dot.active').removeClass('active');
