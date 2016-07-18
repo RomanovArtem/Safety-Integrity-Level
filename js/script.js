@@ -46,87 +46,12 @@ $('#low-voltage-systems').click(function(){
 
   });
 
-  $('#floating-block').click(function(){
-   // $('#feedback').slideToggle(400);
-    $('#floating-block').slideToggle(400)
-  });
-
-  var count = 1;
-  $('#point1').click(function(){
-    if (count == 1)
-    {}
-    if (count == 2){
-      $('#partners2').toggle(function(){});
-      count = 1;
-     $('#partners1').toggle(function(){});}
-
-    if (count == 3){
-      $('#partners3').toggle(function(){});
-      count = 1;
-     $('#partners1').toggle(function(){});}
-
-    if (count == 4){
-      $('#partners4').toggle(function(){});
-      count = 1;
-      $('#partners1').toggle(function(){});}
-  });
-
-  $('#point2').click(function(){
-    if (count == 2)
-    {}
-    if (count == 1){
-      $('#partners1').toggle(function(){});
-      count = 2;
-     $('#partners2').toggle(function(){});}
-
-    if (count == 3){
-      $('#partners3').toggle(function(){});
-      count = 2;
-     $('#partners2').toggle(function(){});}
-
-    if (count == 4){
-      $('#partners4').toggle(function(){});
-      count = 2;
-      $('#partners2').toggle(function(){});}
-  });
-
-  $('#point3').click(function(){
-    if (count == 3)
-    {}
-    if (count == 1){
-      $('#partners1').toggle(function(){});
-      count = 3;
-     $('#partners3').toggle(function(){});}
-
-    if (count == 2){
-      $('#partners2').toggle(function(){});
-      count = 3;
-     $('#partners3').toggle(function(){});}
-
-    if (count == 4){
-      $('#partners4').toggle(function(){});
-      count = 3;
-      $('#partners3').toggle(function(){});}
-  });
-
-  $('#point4').click(function(){
-    if (count == 4)
-    {}
-    if (count == 1){
-      $('#partners1').toggle(function(){});
-      count = 4;
-     $('#partners4').toggle(function(){});}
-
-    if (count == 2){
-      $('#partners2').toggle(function(){});
-      count = 4;
-     $('#partners4').toggle(function(){});}
-
-    if (count == 3){
-      $('#partners3').toggle(function(){});
-      count = 4;
-      $('#partners4').toggle(function(){});}
-  });
+ $(document).mouseup(function (e) {
+    var container = $('#floating-block');
+    if (e.target!=container[0]&&!container.has(e.target).length){
+        container.slideUp(400);
+    }
+});
 
 
 
