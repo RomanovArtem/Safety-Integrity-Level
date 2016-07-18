@@ -7,43 +7,43 @@
 body{
 
     overflow-x:hidden;
-   overflow-y: hidden;
-       scrollbar-base-color: #3A473D;
+    overflow-y: hidden;
+    scrollbar-base-color: #3A473D;
 
 }
-#header{
+.header{
     height: 16%;
     width: 100%;
     float: right;
 
 }
-#block-body{
+.block-body{
     height: 100vh;
     width: 81vw;
     position: absolute;
     left: 19vw;
 }
-#background{
+.background{
     position:fixed;
     z-index: -1;
     left:0;
     width: 100vw;
     height: 100vh;
 }
-#side-bar{
+.side-bar{
     height: 100vh;
     width: 19vw;
     float: left;
     position: fixed;
     background-color: #292929;
 }
-#content{
+.content{
     height: 68.5vh;
     margin-top: 10.5%;
     margin-left: 6.5%;
     width: 94%;
 }
-#footer{
+.footer{
     height: 11%;
     width: 100%;
     margin-left: 6.3%;
@@ -51,43 +51,43 @@ body{
     bottom: 0;
 }
 
-#logo {
+.logo {
     width: 9.2vw;
     height: 11vh;
     margin-top: 8.3vh;
     margin-left: 3.7vw;
 }
-#logo img{
+.logo img{
     width: 100%;
     height: 100%;
 }
-#left-nav-menu{
+.left-nav-menu{
     margin-left: 3.7vw;
     margin-top: 6.7vh;
     position: absolute;
 }
-#left-nav-menu li{
+.left-nav-menu li{
     /*margin-top: 8%;*/
     line-height: 3vh;
 }
 
-#left-nav-menu li a{
+.left-nav-menu li a{
     text-decoration: none;
     font-family: 'Segoe UI';
     font-size: 1.6vh;
     color: #e3e3e3;
     cursor: pointer;
 }
-#left-nav-menu li a:hover{
+.left-nav-menu li a:hover{
     border-bottom: 1px solid #e3e3e3;
 }
-#submenu{
+.submenu{
     border-left: 3px solid #e3e3e3;
     padding-left: 13%;
     height: auto;
     display: none;
 }
-#search-area{
+.search-area{
     margin-left: 3.7vw;
     width: 11.6vw;
     position: absolute;
@@ -99,11 +99,11 @@ body{
     padding-left: 14%;
     font-size: 1.4vh;
 }
-#search-area:focus{
+.search-area:focus{
     background-color: #5F5F5F;
     color: #e3e3e3;
 }
-#search-img{
+.search-img{
     width: 7%;
     height: 2.5%;
     position: absolute;
@@ -112,18 +112,18 @@ body{
     left: 22%;
     right: 71%;
 }
-#top-nav-menu{
+.top-nav-menu{
    width: 99%;
    position: absolute;
    left: 1.4%;
    top: 11.1vh;
    bottom: 87.1vh;
 }
-#top-nav-menu li{
+.top-nav-menu li{
    float: left;
    margin-left: 5.2%;
 }
-#top-nav-menu a{
+.top-nav-menu a{
     text-decoration: none;
     font-family: 'Segoe UI';
     font-size: 1.6vh;
@@ -131,13 +131,13 @@ body{
     cursor: pointer;
     font-weight: normal;
 }
-#top-nav-menu a:hover{
-   border-bottom: 1px solid #e3e3e3;
+.top-nav-menu a:hover{
+   border-bottom: 1px solid .e3e3e3;
 }
-#top-nav-menu a:target{
-   border-bottom: 1px solid #e3e3e3;
+.top-nav-menu a:target{
+   border-bottom: 1px solid .e3e3e3;
 }
-#partners{
+.partners{
     height: 46.3%;
     width: 30%;
     background-color: #3E5042;
@@ -145,7 +145,7 @@ body{
     top: 16%;
     bottom: 37.7%;
 }
-#partners h1 {
+.partners h1 {
     padding-left: 6.7%;
     padding-top: 6.7%;
     padding-bottom: 6.7%;
@@ -153,7 +153,7 @@ body{
     font-size: 4.5vh;
     color: #e3e3e3;
 }
-#about-us{
+.about-us{
     height: 46vh;
     width: 30.1%;
     background-color: #56685C;
@@ -162,7 +162,7 @@ body{
     top: 16%;
     padding-bottom: 0.3vh
 }
-#section{
+.section{
     height: 21.6%;
     width: 60.5%;
     position: absolute;
@@ -171,7 +171,7 @@ body{
     background-color: #56685C;
 }
 
-#about-us h1 {
+.about-us h1 {
     padding-left: 6.7%;
     padding-top: 6.7%;
     font-family: 'Segoe UI';
@@ -179,7 +179,7 @@ body{
 
     color: #e3e3e3;
 }
-#about-us-img{
+.about-us-img{
     height: 28%;
     width: 90%;
     margin-top: 8.9%;
@@ -188,7 +188,7 @@ body{
     background: url(../images/about-us.png) no-repeat center;
     background-size: 100%;
 }
-#about-us h2 {
+.about-us h2 {
     font-family: 'Segoe UI';
     font-size: 1.8vh;
     font-weight: bold;
@@ -196,7 +196,7 @@ body{
     margin-top: 3.4%;
     margin-left: 5.1%;
 }
-#information-loren-ipsum {
+.information-loren-ipsum {
     font-family: 'Segoe UI';
     font-size: 1.3vh;
     font-weight: normal;
@@ -206,7 +206,7 @@ body{
     margin-left: 5.1%;
     margin-right: 5.1%;
 }
-#about-us h3 {
+.about-us h3 {
     font-family: 'Segoe UI';
     font-size: 1.8vh;
     font-weight: bold;
@@ -214,7 +214,7 @@ body{
     margin-top: 4.2%;
 
 }
-#about-us h4 {
+.about-us h4 {
     font-family: 'Segoe UI';
     font-size: 1.2vh;
     font-style: italic;
@@ -224,7 +224,7 @@ body{
     bottom: 21%;
     top: 77%;
 }
-#about-us img {
+.about-us img {
     width: 5vw;
     height: 9vh;
     margin-left: 1.2vw;
@@ -233,7 +233,7 @@ body{
     padding-right: 0.5vw;
 
 }
-#information-linus-torvalds {
+.information-linus-torvalds {
     font-family: 'Segoe UI';
     font-size: 1.3vh;
     font-weight: normal;
@@ -242,7 +242,7 @@ body{
     margin-top: 2.7%;
     margin-right: 5.1%;
 }
-#section h1 {
+.section h1 {
     padding-left: 1.5vw;
     padding-top: 3vh;
     font-family: 'Segoe UI';
@@ -250,7 +250,7 @@ body{
     color: #e3e3e3;
     position: absolute;
 }
-#prev-img {
+.prev-img {
     height: 17%;
     width: 2.5%;
     margin-left: 2%;
@@ -261,28 +261,28 @@ body{
     background: url(../images/prev.png) no-repeat;
     background-size: 100%;
 }
-#prev-img:hover {
+.prev-img:hover {
     background: url(../images/prev-hover.png) no-repeat;
     background-size: 100%;
     cursor: pointer;
 }
-#slider{
+.slider{
     padding-top: 11.5%;
     display: block;
     margin-left: 2.5vw;
 }
-#slider li{
+.slider li{
     height: 9vh;
     width: 6.9vw;
     padding-left: 0.21vw;
     padding-right: 0.21vw;
 }
-#slider a{
+.slider a{
     bottom: -75px;
     text-decoration: none;
     color: #e3e3e3;
 }
-#section-text{
+.section-text{
     font-family: 'Segoe UI';
     font-size: 1.2vh;
     margin-top: 45%;
@@ -291,20 +291,20 @@ body{
     text-align: center;
     margin-left: 5%;
 }
-#section-img
+.section-img
 {
     width: 3.5%;
     position: absolute;
     padding-left: 2.2vw;
 }
 
-#slider a:hover{
+.slider a:hover{
     opacity: 0.3;
     cursor: pointer;
     text-decoration: underline;
 }
 
-#next-img {
+.next-img {
     background: url(../images/next.png) no-repeat;
     background-size: 100%;
     height: 17%;
@@ -315,24 +315,24 @@ body{
     position: relative;
     float: right;
 }
-#next-img:hover {
+.next-img:hover {
     background: url(../images/next-hover.png) no-repeat;
     background-size: 100%;
     cursor: pointer;
 }
-#footer-information{
+.footer-information{
     height: 5%;
     width: 35%;
     position: absolute;
 }
-#contact-details{
+.contact-details{
     height:  5%;
     width: 13%;
     position: absolute;
     left: 47.8%;
     right: 39.2%;
 }
-#feedback{
+.feedback{
     height: 41.5%;
     width: 13.5%;
     background-color: #56685C;
@@ -342,14 +342,14 @@ body{
     left: 61.5%;
     bottom: 5%;
 }
-#footer-information p{
+.footer-information p{
     font-family: 'Segoe UI';
     font-size: 1.4vh;
     font-weight: normal;
     line-height: 1.5vh;
     color: #e3e3e3;
 }
-#contact-details p{
+.contact-details p{
     font-family: 'Segoe UI';
     font-size: 1.8vh;
     font-weight: normal;
@@ -357,7 +357,7 @@ body{
     color: #e3e3e3;
     float: right;
 }
-#feedback h1{
+.feedback h1{
     text-align: center;
     line-height = height;
     font-family: 'Segoe UI';
@@ -365,7 +365,7 @@ body{
     color: #e3e3e3;
     padding-top: 7%;
 }
-#floating-block{
+.floating-block{
     height: 25.7vh;
     width: 13.6%;
     right: 25%;
@@ -377,14 +377,14 @@ body{
     background-color: #56685C;
     box-shadow: 0 0 10px;
 }
-#floating-block h1{
+.floating-block h1{
     text-align: center;
     font-family: 'Segoe UI';
     font-size: 1.7vh;
     color: #e3e3e3;
     padding-top: 1.7vh;
 }
-#floating-block h2{
+.floating-block h2{
     font-family: 'Segoe UI';
     font-weight: bold;
     font-size: 1.5vh;
@@ -393,7 +393,7 @@ body{
     margin-left: 0.4vw;
     margin-right: 0.4vw;
 }
-#floating-block h3{
+.floating-block h3{
     font-family: 'Segoe UI';
     font-size: 1.4vh;
     color: #e3e3e3;
@@ -401,7 +401,7 @@ body{
     margin-left: 0.4vw;
     margin-right: 0.4vw;
 }
-#floating-block h4{
+.floating-block h4{
     font-family: 'Segoe UI';
     font-size: 1vh;
     font-style: italic;
@@ -410,7 +410,7 @@ body{
     margin-left: 0.4vw;
     margin-right: 0.4vw;
 }
-#barcode{
+.barcode{
     width: 2.6vw;
     height: 3.6vh;
     margin-top: 1.2vh;
@@ -419,11 +419,11 @@ body{
     margin-right: 0.25vw;
     float: left;
 }
-#barcode img {
+.barcode img {
     width: 100%;
     height: 100%;
 }
-#electromail{
+.electromail{
     clear: both;
     border-top: 1px solid #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
@@ -431,24 +431,24 @@ body{
     width: auto;
     cursor: pointer;
 }
-#electromail img{
+.electromail img{
     float: left;
     margin: 0.4vw;
 }
-#electromail p{
+.electromail p{
     font-family: 'Segoe UI';
     font-size: 1.2vh;
     color: #e3e3e3;
     margin: 0.4vw;
 }
-#partners2, #partners3, #partners4{
+.partners2, .partners3, .partners4{
     display: none;
 }
 .current {
     border-bottom: 1px solid #e3e3e3;
 }
 
-#content-second-page{
+.content-second-page{
     height: 69vh;
     width: 92.5vh;
     margin-top: 10.5%;
@@ -456,7 +456,7 @@ body{
     background-color: #56685C;
     padding-top: 0.5%;
 }
-#scroller{
+.scroller{
     overflow-x: hidden;
     margin-right: 0.4vh;
 
@@ -475,13 +475,13 @@ body{
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
 
-#container{
+.container{
     height: 59.8vh;
     width: 100%;
     position: relative;
     background-color: #56685C;
 }
-#container h1 {
+.container h1 {
     padding-left: 2.2%;
     padding-top: 2.2%;
     font-family: 'Segoe UI';
@@ -489,21 +489,21 @@ body{
     color: #e3e3e3;
     position: absolute;
 }
-#map {
+.map {
     margin-left: 2%;
     margin-top: 11.8%;
     height: 55.1%;
     width: 86.5%;
 }
 
-#block-information{
+.block-information{
     width: 56.2%;
     height: auto;
     margin-top: 2.4%;
     margin-left: 2%;
     position: relative;
 }
-#second-page-information {
+.second-page-information {
     font-family: 'Segoe UI';
     font-size: 1.3vh;
     font-weight: normal;
@@ -511,7 +511,7 @@ body{
     color: #e3e3e3;
     padding-bottom: 9.7%;
 }
-#second-page-numbers{
+.second-page-numbers{
     width: 20.5%;
     height: 16.5%;
     right: 2%;
@@ -519,21 +519,21 @@ body{
     bottom: 7%;
     position: absolute;
 }
-#first-number, #second-number{
+.first-number, .second-number{
     font-family: 'Segoe UI';
     font-size: 2vh;
     font-weight: normal;
     line-height: 2.5vh;
     color: #e3e3e3;
 }
-#mail{
+.mail{
     font-family: 'Segoe UI';
     font-size: 2vh;
     font-weight: normal;
     line-height: 5.5vh;
     color: #e3e3e3;
 }
-#nav-map{
+.nav-map{
     padding-left: 2%;
     padding-top: 11.8%;
     height: 55.1%;
@@ -583,9 +583,9 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-    
+
 }
-#slide-logo{
+.slide-logo{
     float: left;
     width: 10vw;
     height: 10.9vh;
@@ -593,7 +593,7 @@ body{
     vertical-align: middle;
     position: relative;
 }
-#slide-logo img{
+.slide-logo img{
     position: absolute;
     margin: auto;
     left: 0;
@@ -602,7 +602,7 @@ body{
     right: 0;
     background-color: #29362D;
 }
-#slide-logo :hover{
+.slide-logo :hover{
     background-color: #B9BFBB;
 }
 .toggles{
