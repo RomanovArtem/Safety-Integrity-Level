@@ -1,7 +1,4 @@
 $(document).ready(function() {
-  $('.low-voltage-systems').click(function() {
-    $('.submenu').slideDown(400);
-  });
   $('.block-submenu').mouseenter(function() {
     $('.submenu').slideDown(400);
   });
@@ -121,4 +118,30 @@ $(document).ready(function() {
       left: -currentSlide * slideWidth
     }, 1000).data('current', currentSlide);
   }
+
+   $('#logo-img').mouseenter(function() {
+    var i=Math.round(Math.random()*3);
+    var image=document.getElementById("logo-img");
+    var imgs=new Array('images/logo.png','images/logo2.png','images/logo3.png','images/logo4.png'); //Добавте свои картинки через запятую
+    image.src=imgs[i];
+
+$("#logo-img").click(function() {
+    var image = document.getElementById("logo-img");
+    if (image.src == 'images/logo4.png') {
+      alert ('atas');
+    }
+
+  });
+
+
+
+
+   /* var img = document.createElement("logo-img");
+    img.src = 'images/logo4.png';
+    parentEl.appendChild(img);*/
+
+
+
+
+  });
 });
