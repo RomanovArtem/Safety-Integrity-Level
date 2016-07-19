@@ -122,18 +122,31 @@ $(document).ready(function() {
    $('#logo-img').mouseenter(function() {
     var i=Math.round(Math.random()*3);
     var image=document.getElementById("logo-img");
-    var imgs=new Array('images/logo.png','images/logo2.png','images/logo3.png','images/logo4.png'); //Добавте свои картинки через запятую
+    var imgs=new Array('images/logo.png','images/logo2.png','images/logo3.png','images/logo4.png'); 
     image.src=imgs[i];
-
-$("#logo-img").click(function() {
-    var image = document.getElementById("logo-img");
-    if (image.src == 'images/logo4.png') {
-      alert ('atas');
-    }
-
+     $('#logo-img').click(function() {
+      localStorage.setItem('logo-img', imgs[i]);
   });
+    
+    
+
+  });  
 
 
+
+ if(localStorage.getItem('logo-img') == 'images/logo.png') {
+  document.getElementById('logo-img').src = 'images/logo.png';
+ }
+
+ if(localStorage.getItem('logo-img') == 'images/logo2.png') {
+  document.getElementById('logo-img').src = 'images/logo2.png';
+ }
+ if(localStorage.getItem('logo-img') == 'images/logo3.png') {
+  document.getElementById('logo-img').src = 'images/logo3.png';
+ }
+ if(localStorage.getItem('logo-img') == 'images/logo4.png') {
+  document.getElementById('logo-img').src = 'images/logo4.png';
+ }
 
 
    /* var img = document.createElement("logo-img");
@@ -143,5 +156,4 @@ $("#logo-img").click(function() {
 
 
 
-  });
 });

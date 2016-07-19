@@ -459,6 +459,8 @@ body{
 .scroller{
     overflow-x: hidden;
     margin-right: 0.4vh;
+    height: 61vh;
+    width: 92vh;
 
 }
 ::-webkit-scrollbar {
