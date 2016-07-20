@@ -132,10 +132,10 @@ body{
     font-weight: normal;
 }
 .top-nav-menu a:hover{
-   border-bottom: 1px solid .e3e3e3;
+   border-bottom: 1px solid #e3e3e3;
 }
 .top-nav-menu a:target{
-   border-bottom: 1px solid .e3e3e3;
+   border-bottom: 1px solid #e3e3e3;
 }
 .partners{
     height: 46.3%;
